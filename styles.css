@@ -1,0 +1,185 @@
+body{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000;
+    
+}
+
+th.custom-bg {
+    background-color: #3da700 ; /* Azul claro */
+    color: black ; /* Texto negro */
+    text-align: center; 
+  }
+  th.custom-bg1 {
+    background-color: #a70000d5 ; /* Azul claro */
+    color: black ; /* Texto negro */
+    text-align: center; 
+  }
+  
+  th.custom-bg2 {
+    background-color: #00a799d5 ; /* Azul claro */
+    color: black ; /* Texto negro */
+    text-align: center; 
+  }
+  
+.navbar-brand {
+    font-weight: 500;
+    color: #a81b1b;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+.nav-link{
+    font-weight: 500;
+    color: #b8cc00;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+
+
+
+.carousel-img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin distorsión */
+    margin: 0 auto; /* Centra las imágenes dentro de las columnas */
+}
+/**/
+
+
+p{
+    font-size: 18px;
+}
+
+
+.navbar-brand img {
+    max-width: 38%;
+    max-height: 150px; /* Asegúrate de que la imagen no sobrepase la altura del navbar */
+    object-fit: contain; /* Asegura que la imagen mantenga sus proporciones dentro del navbar */
+    height: auto; /* Ajusta automáticamente la altura manteniendo la proporción */
+    width: auto; /* Ajusta automáticamente el ancho manteniendo la proporción */
+    margin-left: 40px; /* Desplaza la imagen a la derecha */
+    padding: 0; /* Elimina cualquier padding extra */
+}
+/* Activa el menú desplegable al pasar el ratón */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block; /* Muestra el menú */
+    margin-top: 0; /* Ajusta el margen superior */
+  }
+  .dropdown-menu {
+    border: none; /* Elimina el borde del menú */
+    box-shadow: none; /* Elimina la sombra */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #b4b100; /* Cambia el fondo al pasar el ratón */
+  }
+ 
+  
+  .nav-link {
+    font-weight: bold; /* Negrita para los enlaces */
+    margin-right: 20px; /* Espaciado entre los enlaces */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+  }
+/* Ajusta el tamaño del carrusel */
+.carousel-small {
+    max-width: 100%; /* Ancho máximo personalizado */
+    margin: 0 auto; /* Centrado automático */
+  }
+  
+  /* Ajusta el tamaño de las imágenes dentro del carrusel */
+  .carousel-inner img {
+    height: 890px; /* Altura fija */
+    object-fit: cover; /* Ajusta la imagen para cubrir el espacio */
+  }
+  
+/* Estilos generales para los botones */
+.carousel-control-prev, .carousel-control-next {
+    background-color: #b4c708; /* Fondo oscuro */
+    border: 2px solid #666; /* Borde gris oscuro */
+    border-radius: 50%; /* Bordes redondeados para un efecto más dramático */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra espesa para dar un efecto de profundidad */
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves para los efectos */
+    padding: 10px; /* Espacio interno para el botón */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+}
+
+/* Efecto al pasar el ratón por encima */
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #444; /* Fondo más claro en hover */
+    transform: scale(1.1); /* Aumentar el tamaño del botón ligeramente en hover */
+}
+
+
+
+/* Asegúrate de que el contenedor tenga una posición relativa */
+.carousel-container {
+    position: relative; /* Necesario para el posicionamiento absoluto de los botones */
+}
+
+/* Centrar los botones dentro del contenedor */
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 40%;
+}
+
+/* Posicionamiento específico para los botones prev y next */
+.carousel-control-prev {
+    left: 30px; /* Ajusta este valor según sea necesario */
+}
+
+.carousel-control-next {
+    right: 30px; /* Ajusta este valor según sea necesario */
+}
+    
+.parent-container {
+    display: flex;
+    justify-content: center; /* Centra el contenedor horizontalmente */
+    align-items: center; /* Centra el contenedor verticalmente (opcional) */
+    height: 100vh; /* Ajusta la altura del contenedor padre para centrar verticalmente */
+}
+
+.video-container {
+    max-width: 50%; /* Ajusta el ancho del contenedor del video */
+    width: 100%;
+    height: auto; /* Mantiene la proporción del video */
+    
+    overflow: hidden; /* Evita que el contenido sobresalga */
+    box-shadow: 0 4px 8px rgba(141, 28, 28, 0.247); /* Sombra para darle estilo */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+    
+
+.container {
+    display: flex;
+  margin-top: 50px;
+}
+
+
+.image img {
+    max-width: 270%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.text p{
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 22px;
+}
+/**/
+.container {display: flex;justify-content: space-between;align-items: flex-start;max-width: 1200px; /* Anchura máxima de la página */margin: 20px auto; /* Centrar el contenedor */padding: 20px; /* Espaciado interno */  
+}  
+  
+.text {flex: 1; /* Permite que el texto ocupe el espacio disponible */margin-right: 20px; /* Espacio entre el texto y la imagen */  
+}  
+  
+.image {flex: 0 0 300px; /* Ancho fijo para la imagen */  
+}  
+  
+.image img {max-width: 100%; /* Hace que la imagen sea responsiva */height: auto; /* Mantiene la proporción de la imagen */  
+}  
+

@@ -1,0 +1,841 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container">
+        <!-- Logo y título -->
+        <a class="navbar-brand fw-bold fs-2 d-flex align-items-center" href="#">
+          <img src="img/logo (2).png" alt="Logo" class="me-2" style="margin-left: -120px;"> Left 4 Dead 2
+        </a>
+    
+        <!-- Botón para móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+            <!-- Menú desplegable para "Explora" -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fs-4 text-white" href="#" id="infectadosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Explorar
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="infectadosDropdown">
+                <li><a class="dropdown-item text-white" href="#">Boomer</a></li>
+                <li><a class="dropdown-item text-white" href="#">Hunter</a></li>
+                <li><a class="dropdown-item text-white" href="#">Smoker</a></li>
+                <li><a class="dropdown-item text-white" href="#">Tank</a></li>
+                <li><a class="dropdown-item text-white" href="#">Witch</a></li>
+                <li><a class="dropdown-item text-white" href="#">Spitter</a></li>
+                <li><a class="dropdown-item text-white" href="#">Jockey</a></li>
+              </ul>
+            </li>
+            <!-- Menú desplegable para "Comunidad" -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fs-4 text-white" href="#" id="infectadosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Infectados
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="infectadosDropdown">
+                <li><a class="dropdown-item text-white" href="#">Boomer</a></li>
+                <li><a class="dropdown-item text-white" href="#">Hunter</a></li>
+                <li><a class="dropdown-item text-white" href="#">Smoker</a></li>
+                <li><a class="dropdown-item text-white" href="#">Tank</a></li>
+                <li><a class="dropdown-item text-white" href="#">Witch</a></li>
+                <li><a class="dropdown-item text-white" href="#">Spitter</a></li>
+                <li><a class="dropdown-item text-white" href="#">Jockey</a></li>
+              </ul>
+            </li>
+            <!-- Menú desplegable para "Supervivientes" -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fs-4 text-white" href="#" id="infectadosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Supervivientes
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="infectadosDropdown">
+                <li><a class="dropdown-item text-white" href="#nick">Nick</a></li>
+                <li><a class="dropdown-item text-white" href="#rochelle">Michelle</a></li>
+                <li><a class="dropdown-item text-white" href="#ellis">Ellis</a></li>
+                <li><a class="dropdown-item text-white" href="#coach">Coach</a></li>
+                
+              </ul>
+            </li>
+            <!-- Menú desplegable para "Infectados" -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fs-4 text-white" href="#" id="infectadosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Infectados
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="infectadosDropdown">
+                <li><a class="dropdown-item text-white" href="#boomer">Boomer</a></li>
+                <li><a class="dropdown-item text-white" href="#hunter">Hunter</a></li>
+                <li><a class="dropdown-item text-white" href="#someker">Smoker</a></li>
+                <li><a class="dropdown-item text-white" href="#tank">Tank</a></li>
+                <li><a class="dropdown-item text-white" href="#witch">Witch</a></li>
+                <li><a class="dropdown-item text-white" href="#spitter">Spitter</a></li>
+                <li><a class="dropdown-item text-white" href="#jockey">Jockey</a></li>
+              </ul>
+            </li>
+    
+           <!-- Menú desplegable para "Infectados" -->
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4 text-white" href="#" id="infectadosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Campañas
+            </a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="infectadosDropdown">
+              <li><a class="dropdown-item text-white" href="#">Boomer</a></li>
+              <li><a class="dropdown-item text-white" href="#">Hunter</a></li>
+              <li><a class="dropdown-item text-white" href="#">Smoker</a></li>
+              <li><a class="dropdown-item text-white" href="#">Tank</a></li>
+              <li><a class="dropdown-item text-white" href="#">Witch</a></li>
+              <li><a class="dropdown-item text-white" href="#">Spitter</a></li>
+              <li><a class="dropdown-item text-white" href="#">Jockey</a></li>
+            </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+  
+ <!-- Carrusel -->
+  <section class="hero-section1"></section>
+ <div id="carouselExampleIndicators" class="carousel slide carousel-small margin-top">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
+    </div>
+  
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/left-fondo.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/left-fondo2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/left-zombies1.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container">
+  <div class="text">
+    <p>Left 4 Dead 2 es un videojuego de disparos en primera persona de tipo acción creado por la compañía Valve. Corresponde a la secuela de Left 4 Dead y se lanzó al mercado el 17 de noviembre de 2009 en Estados Unidos y Latinoamérica. En Europa llegó tres días después, el 20 de noviembre. Esta secuela, al igual que su predecesor, está disponible para PC y para la consola Xbox 360.</p>
+    <p>El 14 de diciembre de 2009 fue anunciado el primer contenido descargable para esta secuela: una nueva campaña llamada "Defunción", que se desarrolla entre las dos primeras campañas del juego. Aquí se reúnen los protagonistas del primer Left 4 Dead (Francis, Louis y Zoey) con los supervivientes de esta secuela. Bill no aparece con vida, ya que se sacrificó para que los demás siguieran a salvo. Salió a la luz el 22 de abril de 2010.</p>
+    
+  </div>
+  <div class="image">
+    <img src="img/Left_4_Dead_2.webp" alt="Left 4 Dead 2">
+  </div>
+</div>
+
+
+
+
+
+
+
+<!---->
+
+<div class="container mt-5">
+  <div class="d-flex flex-wrap justify-content-start"> <!-- Flex para distribuir tarjetas -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;"> <!-- Tarjeta 1 -->
+      <img src="img/Charger_I.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="charger">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg1">charger</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th scope="row">Salud</th>
+              <td>50</td>
+            </tr>
+            <tr>
+              <th scope="row">Habilidades</th>
+              <td>Puede cubrir a los supervivientes con bilis, atrayendo a una horda</td>
+            </tr>
+            <tr>
+              <th scope="row">Ataques</th>
+              <td>Vómitar, arañazos, muerte explosiva</td>
+            </tr>
+            <tr>
+              <th scope="row">Motes</th>
+              <td>Vomitador, gordo, bolsa, tío que explota</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;">
+      <img src="img/Jockey.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="jockey">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg1">Jockey</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th scope="row">Salud</th>
+              <td>325</td>
+            </tr>
+            <tr>
+              <th scope="row">Habilidades</th>
+              <td>Abalanzarse sobre los supervivientes y forzarles a seguir una dirección</td>
+            </tr>
+            <tr>
+              <th scope="row">Ataques</th>
+              <td>Agarre a la espalda, arañazos</td>
+            </tr>
+            <tr>
+              <th scope="row">Motes</th>
+              <td>El jorobado, el pequeño monstruo, el liliputiense, el enanito</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;">
+      <img src="img/Spitter.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="sppiter">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg1">Sppiter</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Femenino</td>
+            </tr>
+            <tr>
+              <th scope="row">Salud</th>
+              <td>50</td>
+            </tr>
+            <tr>
+              <th scope="row">Habilidades</th>
+              <td>Escupitajo de ácido a distancia</td>
+            </tr>
+            <tr>
+              <th scope="row">Ataques</th>
+              <td>
+                Escupir ácido y arañar</td>
+            </tr>
+            <tr>
+              <th scope="row">Motes</th>
+              <td>Cuellilarga, cuello loco, la puta gorda escupidora, la cosa chiflada escupidora, la cosa asquerosa escupidora, la cosa verde, la mujer chiflada, la puta cuellilarga, el hombre verde, la madre de Nick, la exnovia de Nick, el tío del pringue, la mujer zombie, avestruz</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tarjeta 4 -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;">
+      <img src="img/Witch.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="witch">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg1">Witch</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Femenino</td>
+            </tr>
+            <tr>
+              <th scope="row">Salud</th>
+              <td>1000</td>
+            </tr>
+            <tr>
+              <th scope="row">Habilidades</th>
+              <td>Incapacita o mata a un superviviente de un golpe; corre a más velocidad que éste</td>
+            </tr>
+            <tr>
+              <th scope="row">Ataques</th>
+              <td>Zarpazos</td>
+            </tr>
+            <tr>
+              <th scope="row">Motes</th>
+              <td>La chica llorosa, zorra, la exnovia/exmujer de Nick, la que llora, el infierno</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---->
+<div class="container mt-5">
+  <div class="d-flex flex-wrap justify-content-start"> <!-- Flex para distribuir tarjetas -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;" id="boomer"> <!-- Tarjeta 1 -->
+      <img src="img/boomer.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="boomer">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg1">Boomer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th scope="row">Salud</th>
+              <td>50</td>
+            </tr>
+            <tr>
+              <th scope="row">Habilidades</th>
+              <td>Puede cubrir a los supervivientes con bilis, atrayendo a una horda</td>
+            </tr>
+            <tr>
+              <th scope="row">Ataques</th>
+              <td>Vómitar, arañazos, muerte explosiva</td>
+            </tr>
+            <tr>
+              <th scope="row">Motes</th>
+              <td>Vomitador, gordo, bolsa, tío que explota</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;">
+      <img src="img/Hunter.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Hunter" id="hunter">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small" >
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg1">Hunter</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th scope="row">Salud</th>
+              <td>250</td>
+            </tr>
+            <tr>
+              <th scope="row">Habilidades</th>
+              <td>Saltar grandes distancias sin lastimarse, saltar e impulsarse por las paredes y caer encima de los sobrevivientes para arañarlos</td>
+            </tr>
+            <tr>
+              <th scope="row">Ataques</th>
+              <td>Salto y arañazo</td>
+            </tr>
+            <tr>
+              <th scope="row">Motes</th>
+              <td>Santi panki, saltador, imitador de caballos, spooky hunky, skater boy, spaanki hanky, yonki</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;">
+      <img src="img/Smoker.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="smoker">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg1">Smoker</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th scope="row">Salud</th>
+              <td>250</td>
+            </tr>
+            <tr>
+              <th scope="row">Habilidades</th>
+              <td>Arrastrar a los supervivientes a distancia con su lengua</td>
+            </tr>
+            <tr>
+              <th scope="row">Ataques</th>
+              <td>Atrapar con su lengua, arañar y emitir una nube de humo al morir</td>
+            </tr>
+            <tr>
+              <th scope="row">Motes</th>
+              <td>El tipo de la lengua, el tipo fumador con la lengua, el tío fumador, lamedor</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tarjeta 4 -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;">
+      <img src="img/Tankidle.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="tank">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg1">Tank</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th scope="row">Salud</th>
+              <td>3000 (Fácil)
+                4000 (Normal)
+                6000 (Enfrentamiento)
+                8000 (Avanzado)
+                8000 (Experto)
+                10000
+                (Realismo)
+                12000
+                (Realismo experto)</td>
+            </tr>
+            <tr>
+              <th scope="row">Habilidades</th>
+              <td>Fuerza y resistencia sobrehumana</td>
+            </tr>
+            <tr>
+              <th scope="row">Ataques</th>
+              <td>Puñetazo, lanzamiento de roca y propulsión de objetos de tamaño considerable como coches</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!---->
+<div class="container mt-5">
+  <div class="d-flex flex-wrap justify-content-start"> <!-- Flex para distribuir tarjetas -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;"> <!-- Tarjeta 1 -->
+      <img src="img/gorra.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="ellis">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg">Ellis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th scope="row">Edad</th>
+              <td>23</td>
+            </tr>
+            <tr>
+              <th scope="row">Origen</th>
+              <td>Savannah, Georgia</td>
+            </tr>
+            <tr>
+              <th scope="row">Peso</th>
+              <td>135 Libras</td>
+            </tr>
+            <tr>
+              <th scope="row">Altura</th>
+              <td>1.68 m</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;">
+      <img src="img/negro.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="coach">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg">Coach</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th scope="row">Edad</th>
+              <td>44</td>
+            </tr>
+            <tr>
+              <th scope="row">Origen</th>
+              <td>Savannah, Georgia</td>
+            </tr>
+            <tr>
+              <th scope="row">Peso</th>
+              <td>155 Libras</td>
+            </tr>
+            <tr>
+              <th scope="row">Altura</th>
+              <td>1.75 m</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;">
+      <img src="img/mi.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="richelle">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg">Richellle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Femenino</td>
+            </tr>
+            <tr>
+              <th scope="row">Salud</th>
+              <td>28</td>
+            </tr>
+            <tr>
+              <th scope="row">Origen</th>
+              <td>Cleveland</td>
+            </tr>
+            <tr>
+              <th scope="row">Peso</th>
+              <td>110 Libras</td>
+            </tr>
+            <tr>
+              <th scope="row">Altura</th>
+              <td>1.65 m</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tarjeta 4 -->
+    <div class="card bg-dark text-white m-2" style="flex: 1;">
+      <img src="img/nick.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="nick">
+      <div class="card-body p-0">
+        <table class="table table-dark table-borderless table-sm mb-0 small">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center custom-bg">Nick</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sexo</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th scope="row">Edad</th>
+              <td>35</td>
+            </tr>
+            <tr>
+              <th scope="row">Origen</th>
+              <td>Desconocido</td>
+            </tr>
+            <tr>
+              <th scope="row">Peso</th>
+              <td>145 Libras</td>
+            </tr>
+            <tr>
+              <th scope="row">Altura</th>
+              <td>1.76 m</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---->
+  <!---->
+  <div class="container mt-5">
+    <div class="d-flex flex-wrap justify-content-start"> <!-- Flex para distribuir tarjetas -->
+      <div class="card bg-dark text-white m-2" style="flex: 1;"> <!-- Tarjeta 1 -->
+        <img src="img/diluvio.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="el-diluvio">
+        <div class="card-body p-0">
+          <table class="table table-dark table-borderless table-sm mb-0 small">
+            <thead>
+              <tr>
+                <th colspan="2" class="text-center custom-bg2">El Diluvio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sexo</th>
+                <td>Masculino</td>
+              </tr>
+              <tr>
+                <th scope="row">Edad</th>
+                <td>23</td>
+              </tr>
+              <tr>
+                <th scope="row">Origen</th>
+                <td>Savannah, Georgia</td>
+              </tr>
+              <tr>
+                <th scope="row">Peso</th>
+                <td>135 Libras</td>
+              </tr>
+              <tr>
+                <th scope="row">Altura</th>
+                <td>1.68 m</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  
+      <!-- Tarjeta 2 -->
+      <div class="card bg-dark text-white m-2" style="flex: 1;">
+        <img src="img/parroquia.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="la-parroquia">
+        <div class="card-body p-0">
+          <table class="table table-dark table-borderless table-sm mb-0 small">
+            <thead>
+              <tr>
+                <th colspan="2" class="text-center custom-bg2">La Parroquia</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sexo</th>
+                <td>Masculino</td>
+              </tr>
+              <tr>
+                <th scope="row">Edad</th>
+                <td>44</td>
+              </tr>
+              <tr>
+                <th scope="row">Origen</th>
+                <td>Savannah, Georgia</td>
+              </tr>
+              <tr>
+                <th scope="row">Peso</th>
+                <td>155 Libras</td>
+              </tr>
+              <tr>
+                <th scope="row">Altura</th>
+                <td>1.75 m</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  
+      <!-- Tarjeta 3 -->
+      <div class="card bg-dark text-white m-2" style="flex: 1;">
+        <img src="img/pantananos.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="rochelle">
+        <div class="card-body p-0">
+          <table class="table table-dark table-borderless table-sm mb-0 small">
+            <thead>
+              <tr>
+                <th colspan="2" class="text-center custom-bg2">Pantanos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sexo</th>
+                <td>Femenino</td>
+              </tr>
+              <tr>
+                <th scope="row">Salud</th>
+                <td>28</td>
+              </tr>
+              <tr>
+                <th scope="row">Origen</th>
+                <td>Cleveland</td>
+              </tr>
+              <tr>
+                <th scope="row">Peso</th>
+                <td>110 Libras</td>
+              </tr>
+              <tr>
+                <th scope="row">Altura</th>
+                <td>1.65 m</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  
+      <!-- Tarjeta 4 -->
+      <div class="card bg-dark text-white m-2" style="flex: 1;">
+        <img src="img/punto.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="Punto-Muerto">
+        <div class="card-body p-0">
+          <table class="table table-dark table-borderless table-sm mb-0 small">
+            <thead>
+              <tr>
+                <th colspan="2" class="text-center custom-bg2">Punto Muerto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sexo</th>
+                <td>Masculino</td>
+              </tr>
+              <tr>
+                <th scope="row">Edad</th>
+                <td>35</td>
+              </tr>
+              <tr>
+                <th scope="row">Origen</th>
+                <td>Desconocido</td>
+              </tr>
+              <tr>
+                <th scope="row">Peso</th>
+                <td>145 Libras</td>
+              </tr>
+              <tr>
+                <th scope="row">Altura</th>
+                <td>1.76 m</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="d-flex flex-wrap justify-content-start"> <!-- Flex para distribuir tarjetas -->
+      
+      <!-- Tarjeta 1 -->
+      <div class="card bg-dark text-white m-2" style="flex: 1 1 calc(33.333% - 16px); max-width: 33.333%;"> <!-- Ajuste de flex y max-width -->
+        <img src="img/defuncion.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="el-diluvio">
+        <div class="card-body p-0">
+          <table class="table table-dark table-borderless table-sm mb-0 small">
+            <thead>
+              <tr>
+                <th colspan="2" class="text-center custom-bg2">Defunción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sexo</th>
+                <td>Masculino</td>
+              </tr>
+              <tr>
+                <th scope="row">Edad</th>
+                <td>23</td>
+              </tr>
+              <tr>
+                <th scope="row">Origen</th>
+                <td>Savannah, Georgia</td>
+              </tr>
+              <tr>
+                <th scope="row">Peso</th>
+                <td>135 Libras</td>
+              </tr>
+              <tr>
+                <th scope="row">Altura</th>
+                <td>1.68 m</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  
+      <!-- Tarjeta 2 -->
+      <div class="card bg-dark text-white m-2" style="flex: 1 1 calc(33.333% - 16px); max-width: 33.333%;"> <!-- Ajuste de flex y max-width -->
+        <img src="img/feria.webp" class="card-img-top w-100" style="height: 400px; object-fit: cover;" alt="Boomer" id="la-parroquia">
+        <div class="card-body p-0">
+          <table class="table table-dark table-borderless table-sm mb-0 small">
+            <thead>
+              <tr>
+                <th colspan="2" class="text-center custom-bg2">Feria Siniestra</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sexo</th>
+                <td>Masculino</td>
+              </tr>
+              <tr>
+                <th scope="row">Edad</th>
+                <td>44</td>
+              </tr>
+              <tr>
+                <th scope="row">Origen</th>
+                <td>Savannah, Georgia</td>
+              </tr>
+              <tr>
+                <th scope="row">Peso</th>
+                <td>155 Libras</td>
+              </tr>
+              <tr>
+                <th scope="row">Altura</th>
+                <td>1.75 m</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+
+</body>
+</html>
